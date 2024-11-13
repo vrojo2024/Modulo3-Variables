@@ -43,11 +43,10 @@ const grupo5: Grupo_musical = {
     genero: "Rock",
 }
 
-console.log (`${grupo1.nombre_grupo}`, "/", `${grupo1.año_fundacion}`, "/", "Activo:", `${grupo1.activo}`, "/", `${grupo1.genero}`);
-console.log (`${grupo2.nombre_grupo}`, "/", `${grupo2.año_fundacion}`, "/", "Activo:", `${grupo2.activo}`, "/", `${grupo2.genero}`);
-console.log (`${grupo3.nombre_grupo}`, "/", `${grupo3.año_fundacion}`, "/", "Activo:", `${grupo3.activo}`, "/", `${grupo3.genero}`);
-console.log (`${grupo4.nombre_grupo}`, "/", `${grupo4.año_fundacion}`, "/", "Activo:", `${grupo4.activo}`, "/", `${grupo4.genero}`);
-console.log (`${grupo5.nombre_grupo}`, "/", `${grupo5.año_fundacion}`, "/", "Activo:", `${grupo5.activo}`, "/", `${grupo5.genero}`);
+console.log ('• '+`%c${grupo1.nombre_grupo}`,negritayfondoverde, '/', `${grupo1.año_fundacion}`, '/', "Activo:", `${grupo1.activo}`, '/', `${grupo1.genero}`);
+console.log ('• '+`%c${grupo2.nombre_grupo}`,negritayfondoverde, '/', `${grupo2.año_fundacion}`, '/', "Activo:", `${grupo2.activo}`, '/', `${grupo2.genero}`);
+console.log ('• '+`%c${grupo3.nombre_grupo}`,negritayfondoverde, '/', `${grupo3.año_fundacion}`, '/', "Activo:", `${grupo3.activo}`, '/', `${grupo3.genero}`);
+console.log ('• '+`%c${grupo4.nombre_grupo}`,negritayfondoverde, '/', `${grupo4.año_fundacion}`, '/', "Activo:", `${grupo4.activo}`, '/', `${grupo4.genero}`);console.log ('• '+`%c${grupo5.nombre_grupo}`,negritayfondoverde, '/', `${grupo5.año_fundacion}`, '/', "Activo:", `${grupo5.activo}`, '/', `${grupo5.genero}`);
 
 
 
