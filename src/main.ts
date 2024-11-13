@@ -5,7 +5,7 @@ interface Grupo_musical {
     genero: string;
 }
 
-const estiloNombreGrupo = "font-size: 20px; font-weight: bold; background-color: green;";
+const negritayfondoverde = "font-size: 20px; font-weight: bold; background-color: green;";
 
 const grupo1: Grupo_musical = {
     nombre_grupo:'The Beatles',
